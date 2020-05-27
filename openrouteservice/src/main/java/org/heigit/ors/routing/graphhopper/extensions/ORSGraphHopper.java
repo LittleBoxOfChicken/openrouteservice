@@ -545,7 +545,7 @@ public class ORSGraphHopper extends GraphHopper {
 			} catch (Exception e) {
 				LOGGER.debug(e.getLocalizedMessage());
 			}
-			fastIsochroneFactory.createPreparations(gs, partitioningEdgeFilter);
+			fastIsochroneFactory.createPreparation(gs, partitioningEdgeFilter);
 
 			if (!isPartitionPrepared())
 				preparePartition();

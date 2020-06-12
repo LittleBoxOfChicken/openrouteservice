@@ -22,6 +22,7 @@ openrouteservice/src/main/resources/app.config*
 app.config.local
 cgiar_provider/
 graphs/
+docker/data/
 target/
 .python-version
 nohup.out
